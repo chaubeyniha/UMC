@@ -2,8 +2,14 @@
  
 Library use USC Timit database (https://sail.usc.edu/span/usc-timit/). The goal is to have an array of input which represents the raw waveform of a word spoken as an input to a neural network which then is able to predict the 6 ema markers. 
 
+Dependencies: Python, NumPy, Pandas, PyTorch, Librosa, Tensorflow
 
-Dependencies: Python, NumPy, Pandas, PyTorch, Librosa
+# If you are using Anaconda then you can install all required
+# Python packages by running the following commands in a shell:
+#
+#     conda create --name tf python=3
+#     source activate tf
+#     pip install -r requirements.txt
 
 Dataset
 is saved in the data/Data folder with information for 4 participants...
